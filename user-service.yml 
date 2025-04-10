@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://user:userPassword@dharmala.igq1a.mongodb.net/test?retryWrites=true&w=majority&appName=Dharmala
+      database=Society
+      authentication-database=admin
