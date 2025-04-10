@@ -1,6 +1,10 @@
 server:
   port: 8081
 
+app:
+  welcome-message: "Welcome to Riddhi's Golden Nest Resident Service!"
+  support-email: "support@riddhisnest.com"
+
 spring:
   application:
     name: user-service
