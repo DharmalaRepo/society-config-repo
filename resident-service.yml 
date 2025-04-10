@@ -1,0 +1,24 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/riddhis-userdb
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: user-events
+  profiles:
+    active: dev
+
+notifications:
+  email:
+    sender: info@riddhisnest.com
+    smtp-host: smtp.mailtrap.io
+    smtp-port: 587
+  whatsapp:
+    enabled: true
+    provider-url: https://api.whatsapp.com/send
