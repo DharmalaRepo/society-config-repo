@@ -6,7 +6,7 @@ spring:
     name: user-service
   data:
     mongodb:
-      uri: mongodb://localhost:27017/riddhis-userdb
+      uri: mongodb+srv://user:userPassword@dharmala.igq1a.mongodb.net/test?retryWrites=true&w=majority&appName=Dharmala
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
